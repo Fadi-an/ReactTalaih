@@ -5,6 +5,7 @@ import PostCard from "./PostCard";
 function createPost(post){
     return(
         <PostCard
+            key={post.id}
             img={post.img}
             link={post.link}
             title={post.title}

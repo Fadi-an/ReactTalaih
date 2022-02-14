@@ -1,11 +1,11 @@
 import React from 'react';
 
 function InitialPhoto() {
-    return (
-        <figure class="figure">
-        <img src="../images/initialPhoto.png" class="figure-img img-fluid rounded" alt=""></img>
-      </figure>
-    );
+  return (
+    <figure className="figure">
+      <img className="figure-img img-fluid rounded" src="images/initialPhoto.png" alt="Initial Photo"></img>
+    </figure>
+  );
 };
 
 export default InitialPhoto;

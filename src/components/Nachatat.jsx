@@ -16,7 +16,7 @@ function Nachatat() {
                                     <a href="" className="stretched-link">المزيد</a>
                                 </div>
                                 <div className="col-auto d-none d-lg-block">
-                                    <img className="bd-placeholder-img" width="200" height="250" src="ReactTalaih/images/Ma3akBtekmalJalse.jpeg" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+                                    <img className="bd-placeholder-img" width="200" height="250" src="images/Ma3akBtekmalJalse.jpeg" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
                                 </div>
                             </div>
                         </div>
@@ -29,7 +29,7 @@ function Nachatat() {
                                     <a href="#" className="stretched-link">المزيد</a>
                                 </div>
                                 <div className="col-auto d-none d-lg-block">
-                                    <img className="bd-placeholder-img" width="200" height="250" src="ReactTalaih/images/TalaihFestival.jpeg" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+                                    <img className="bd-placeholder-img" width="200" height="250" src="images/TalaihFestival.jpeg" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
                                 </div>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ function Nachatat() {
                                     <a href="#" className="stretched-link">المزيد</a>
                                 </div>
                                 <div className="col-auto d-none d-lg-block">
-                                    <img className="bd-placeholder-img" width="200" height="250" src="ReactTalaih/images/Chi3ar2021.jpeg" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+                                    <img className="bd-placeholder-img" width="200" height="250" src="images/Chi3ar2021.jpeg" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
                                 </div>
                             </div>
                         </div>

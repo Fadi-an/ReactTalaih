@@ -6,7 +6,7 @@ function NavOther() {
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <Link className="navbar-brand" to="ReactTalaih">
-                    <img src="ReactTalaih/images/logo.png" width="30" height="30"></img>
+                    <img src="images/logo.png" width="30" height="30"></img>
                 </Link>
             </nav>
         </div>

@@ -4,7 +4,7 @@ function Reznema() {
     return (
         <div>
             <figure className="figure">
-                <img src="ReactTalaih/images/reznema.png" className="figure-img img-fluid rounded" alt=""></img>
+                <img src="images/reznema.png" className="figure-img img-fluid rounded" alt=""></img>
             </figure>
             <h1 className="fare3-title">روزنامة سنة 2022</h1>
             <div className="container">

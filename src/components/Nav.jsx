@@ -11,7 +11,7 @@ function Nav() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <Link className="navbar-brand" to="/">
-            <img src="ReactTalaih/images/logo.png" width="35" height="35" alt="NavLogo"></img>
+            <img src="images/logo.png" width="35" height="35" alt="NavLogo"></img>
           </Link>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto mb-2 mb-lg-0">

@@ -1,0 +1,404 @@
+body {
+  background-image: url("https://www.transparenttextures.com/patterns/60-lines.png");
+/* font-family: 'Scheherazade New', serif; */
+}
+
+a, a:hover, a:focus, a:active {
+     text-decoration: none;
+     color: inherit;
+}
+label{
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+
+@media (min-width: 1000px){
+  iframe{
+    border:solid 1px #777;
+    width: 800px;
+    height: 600px;
+  }
+}
+
+
+/* Navigation Bar */
+.nav-item {
+  font-size: 1.2rem;
+  font-family: 'El Messiri', sans-serif;
+}
+
+/* About us */
+.row {
+  margin: 0;
+}
+
+.aboutUs-title {
+  color: #212529;
+  font-size: 3rem;
+  padding-bottom: 3%;
+  padding-right: 12%;
+  font-family: 'El Messiri', sans-serif;
+}
+.lejne-title, .fourou3-title, .nachatat-title, .tanchi2a-title, .idariyet-title {
+  font-size: 3rem;
+  padding-bottom: 3%;
+  padding-right: 7%;
+  padding-top: 3%;
+  font-family: 'El Messiri', sans-serif;
+}
+
+.lejne-title, .nachatat-title, .idariyet-title{
+  color: white;
+}
+
+.fourou3-title, .tanchi2a-title{
+  color:#212529;
+}
+
+.aboutUs-content {
+  color: #212529;
+  font-size: 1.3rem;
+  padding-left: 5%;
+  padding-right: 12%;
+}
+.aboutus-btn{
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.ytvideo {
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.ytvideo2{
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 700px){
+  .ytvideo {
+    margin: auto;
+    width: 640px;
+    height: 400px;
+    margin-top: 3rem;
+    border: 0;
+  }
+  .ytvideo2{
+    margin: auto;
+    width: 500px;
+    height: 350px;
+    border: 0;
+  }
+}
+
+/* Lejne */
+
+.lejne {
+  background-color: #212529;
+  padding-bottom: 4rem;
+}
+
+
+
+/* Lejne Carousel */
+
+.MultiCarousel {
+  float: right;
+  overflow: hidden;
+  padding: 15px;
+  width: 100%;
+  position: relative;
+}
+
+.MultiCarousel .MultiCarousel-inner {
+  transition: 1s ease all;
+  float: right;
+}
+
+.MultiCarousel .MultiCarousel-inner .item {
+  float: right;
+}
+
+.MultiCarousel .MultiCarousel-inner .item>div {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background: #f1f1f1;
+  color: #666;
+}
+
+.MultiCarousel .leftLst, .MultiCarousel .rightLst {
+  position: absolute;
+  border-radius: 50%;
+  top: calc(50% - 20px);
+}
+
+.MultiCarousel .leftLst {
+  right: 0;
+}
+
+.MultiCarousel .rightLst {
+  left: 0;
+}
+
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {
+  pointer-events: none;
+  background: #ccc;
+}
+
+.MultiCarousel .MultiCarousel-inner .item .card {
+  background-color:#950101;
+  color: white;
+  margin: auto;
+  padding: 0;
+}
+.MultiCarousel .MultiCarousel-inner .item .card:hover {
+  background-color:white;
+  color: #212529;
+}
+
+/* .card-img-top{
+  width: 70%;
+  margin: auto;
+  padding-top: 4%;
+} */
+.card-img-top{
+  width: 12rem;
+  position: absolute;
+  right: 2rem;
+  top: 7rem;
+}
+.filler{
+  height: 11rem;
+  position: absolute;
+  top: 18.5rem;
+  width: 16rem;
+}
+.item .card{
+  height: 30rem;
+  width: 16rem;
+}
+.card-text{
+  font-size: 12px;
+}
+.eyye{
+padding-right:3%;
+padding-left:3%;
+margin-top: 2%;
+font-size: 12px;
+}
+.card h3{
+  margin-top: 3%;
+}
+
+/* Fourou3 */
+.fourou3{
+  padding-bottom: 3rem;
+}
+
+
+.fare3{
+  text-align: center;
+}
+div.feature {
+       position: relative;
+   }
+
+div.feature a {
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       top: 0;
+       left: 0;
+       text-decoration: none; /* No underlines on the link */
+       z-index: 1; /* Places the link above everything else in the div */
+       background-color: #FFF; /* Fix to make div clickable in IE */
+       opacity: 0; /* Fix to make div clickable in IE */
+       filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+   }
+
+.row .row {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+.bg {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(86, 61, 124, .15);
+  border: 1px solid rgba(86, 61, 124, .2);
+  text-align: center;
+}
+.bg:hover{
+  background-color:#950101;
+  color: white;
+}
+
+/* Nachatat */
+
+.nachatat {
+  background-color: #212529;
+  color: white;
+  padding-bottom: 4rem;
+}
+
+
+.nachatat-btn{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Tanchi2a */
+
+.tanchi2a{
+  padding-bottom: 3rem;
+}
+.tanchi2a-content{
+    text-align: center;
+}
+.rounded-circle{
+  opacity: 1;
+  margin-bottom: 1rem;
+}
+.rounded-circle:hover{
+opacity: 0.6;
+}
+.tanchi2aRow{
+  margin-bottom: 1rem;
+}
+.tanchi2aButton{
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.idariyet{
+  padding-bottom: 3rem;
+}
+
+.other-title{
+  margin-bottom: 2rem;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #212529;
+  text-align: center;
+  padding: 3%;
+}
+
+.footer-icon {
+  width: 30px;
+  margin: 3% 1%;
+}
+.footerStyle{
+  font-size: 20px; 
+  color: Dodgerblue;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 700px){
+  .aboutUs-title {
+    font-size: 2rem;
+    text-align: center;
+    padding-right: 0%;
+    font-family: 'El Messiri', sans-serif;
+  }
+  .aboutUs-content {
+    font-size: 1rem;
+  }
+  .aboutUs-img {
+    width: 300px;
+    padding-right: 25%;
+  }
+  .lejne-title, .nachatat-title, .tanchi2a-title, .fourou3-title, .idariyet-title{
+    font-size: 1.8rem;
+    text-align: center;
+    padding-right: 0%;
+    font-family: 'El Messiri', sans-serif;
+  }
+}
+
+/* idariyet */
+
+.idariyet{
+  background-color: #212529;
+}
+.idariyet-content{
+  color: white;
+  text-align: center;
+}
+.moreButton{
+  background-color: #950101;
+  color: white;
+}
+
+/* other */
+.other{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.other-content{
+  text-align: center;
+  font-family: 'El Messiri', sans-serif;
+}
+.ytAlign{
+  text-align: center;
+}
+/* fere3 page */
+
+.fere3-carousel{
+  margin-bottom: 3rem;
+}
+
+.fare3-title{
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  font-family: 'El Messiri', sans-serif;
+}
+.fare3-content{
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 2rem;
+}
+
+.addMember{
+  padding-top: 1rem;
+  text-align: center;
+}
+.addMemberContainer{
+height: 400px;
+width: 700px;
+}
+
+.socialmedia-title{
+  text-align: center;
+  font-family: 'El Messiri', sans-serif;
+}
+.socialmedia-content{
+  text-align: center;
+  font-size: 45px;
+  color: #950101;
+  padding-bottom: 2rem;
+}
+
+/* Calendar page */
+.calendar{
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+@media (max-width: 700px){
+  .reznema{
+    border:solid 1px #777;
+    height: 300px; 
+    width: 400px; 
+  }
+  
+}
